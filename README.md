@@ -5,7 +5,10 @@ Steps to create a working local environment:
 1. homebrew:  
    `mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew`
 2. nvm:  
-   `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash`
+   `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash`  
+   `nvm install 8`
+3. zsh theme:  
+   `npm install --global pure-prompt`
 3. oh-my-zsh:  
    `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`  
    `cp .zshrc ~/`  
