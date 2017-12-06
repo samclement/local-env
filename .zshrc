@@ -6,7 +6,7 @@
 #
 
 # Customize to your needs...
-plugins+=(git)
+plugins+=(git docker vi-mode)
 
 source "$NVM_DIR/nvm.sh"
 source "$ZSH/oh-my-zsh.sh"
