@@ -5,16 +5,13 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
-# Source Prezto.
-if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
-  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
-fi
-
 # Customize to your needs...
-autoload -U promptinit; promptinit
-prompt pure
-
-plugins+=(nvm)
+plugins+=(git)
 
 source "$NVM_DIR/nvm.sh"
+source "$ZSH/oh-my-zsh.sh"
+
+ZSH_THEME=""
+autoload -U promptinit; promptinit
+prompt pure
 
